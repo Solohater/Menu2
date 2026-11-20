@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+build/
+public/output.css
+
+# Environment & secrets
+.env
+.env*.local
+*.pem
+
+# System & IDE
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+
+# Protected local media files
+services/backend/var/media/
+
+.scratch/
+
